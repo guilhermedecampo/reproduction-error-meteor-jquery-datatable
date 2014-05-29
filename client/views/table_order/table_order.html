@@ -1,0 +1,9 @@
+<template name="TableOrder">
+  <h1 class="text-center">This is orders</h1>
+  <p class="text-center">You should see some random ids now go back to home (via link =)<a href="/">HOME</a> and run Order.find().fetch()</p>
+  {{> DataTable
+    columns=order.columns
+    options=order.options
+    subscription=order.subscription
+  }}
+</template>
